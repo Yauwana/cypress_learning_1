@@ -1,0 +1,10 @@
+Run the CLI => npx cypress Run
+To run a specific file in CLI mode => npm cypress run --spec <file name>
+
+"scripts": {
+    "cypress": "cypres open",
+    "test": "cypress run"
+  }, this will use NPM instead of npx
+
+  so npx cypress open => npm cypress
+  npx cypress run => npm test

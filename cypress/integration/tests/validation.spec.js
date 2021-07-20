@@ -9,7 +9,7 @@ it('interacting', () =>{
     cy.get('.toggle').should('not.be.checked')
 
     cy.get('.toggle').click()
-    cy.get('label').should('have.css','text-decoration-line','line-through')//got these CSS values using the DOM in chrome
+    cy.get('label').should('have.css','text-decoration-line','line-through')//got these CSS values using the DOM in chrome browser
    
 
    cy.contains('Clear completed').click()
